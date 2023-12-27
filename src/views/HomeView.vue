@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+// import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <p>lorem</p>
+    <h1 class="text-3xl bg-red-500 sm:bg-yellow-500 " >H1</h1>
+    <h6>h6</h6>
   </main>
 </template>
