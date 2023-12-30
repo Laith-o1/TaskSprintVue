@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import axios from '../axios';
+import axios from 'axios';
 import router from '../router';
 
 
@@ -41,7 +41,7 @@ export const useAuthStore = defineStore('auth', {
       fromData.append('password', password);
       axios
         .post(
-          "endPoint",
+          "http://localhost:8000/api/employee/login",
           fromData,
         )
         .then((response) => {
