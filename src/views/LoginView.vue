@@ -68,7 +68,7 @@ this.$router.push('/main')
                                     col-start-2
                                     h-[3.375rem]
                                     bg-gray-200
-                                    pr-4
+                                    pl-4
                                     text-sm
                                       font-bold
                                   " />
@@ -90,7 +90,7 @@ this.$router.push('/main')
                                     col-start-2
                                     h-[3.375rem]
                                     bg-gray-200
-                                    pr-4
+                                    pl-4
                                     text-sm
                                       font-bold
                                   " />

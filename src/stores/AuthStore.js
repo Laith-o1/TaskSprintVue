@@ -17,14 +17,14 @@ export const useAuthStore = defineStore('auth', {
   actions: {
     async logout() {
       axios
-        .get("endPoint",{
+        .get("http://localhost:8000/api/employee/logout",{
           headers: {
               Authorization: "Bearer " + this.token
           },
       }).then((response) => {
           this.token = null;
           this.user = {};
-          router.push({ name: 'login' });
+          router.push({ name: 'LoginView' });
         })
         .catch((error) => {
           this.errorMessage = error.response;
